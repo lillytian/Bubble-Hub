@@ -13,6 +13,22 @@ code {
 }
 
 /* NavBar Styles */
+.navbar {
+  width: 100%;
+  display: block;
+}
+
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .navLogo {
   width: 30px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: left;
+  display: inline-block;
 }
