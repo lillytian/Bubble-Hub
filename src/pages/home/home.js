@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import {
-    GoogleMap,
-    useLoadScript,
-    InfoWindow,
-} from "@react-google-maps/api";
-
+import Map from '../../components/Map'
 class Home extends Component {
     state = {  }
+    
     render() { 
         return (  
-            <div>Hello world!</div>
+            <div>
+                <Map />
+            </div>
         );
     }
 }
