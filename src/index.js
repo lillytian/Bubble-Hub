@@ -5,6 +5,7 @@ import { createBrowserHistory } from 'history';
 
 import './css/index.css';
 import NavBar from './components/navbar';
+import Footer from './components/footer';
 import Home from './pages/home/home';
 import Contact from './pages/contact/contact';
 
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
