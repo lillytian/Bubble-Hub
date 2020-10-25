@@ -14,8 +14,11 @@ code {
 
 /* NavBar Styles */
 .navbar {
+  background-color: #245059;
+  color: white;
   width: 100%;
   display: block;
+  padding: 10px 5px;
 }
 
 .navbar a {
@@ -24,11 +27,24 @@ code {
 }
 
 .navLogo {
-  width: 30px;
+  width: 19px;
+  border-radius: 50%;
+}
+
+.websiteName {
+  font-weight: bold;
 }
 
 .navbar ul {
   list-style-type: none;
-  float: left;
-  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  font-size: 20px;
+  display: inline;
+  vertical-align:bottom;
+  margin: 0 10px;
 }

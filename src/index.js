@@ -6,6 +6,7 @@ import { createBrowserHistory } from 'history';
 import './css/index.css';
 import NavBar from './components/navbar';
 import Home from './pages/home/home';
+import Contact from './pages/contact/contact';
 
 var hist = createBrowserHistory();
 
@@ -15,6 +16,7 @@ ReactDOM.render(
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
     </Router>
   </React.StrictMode>,

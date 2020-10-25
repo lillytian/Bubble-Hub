@@ -11,8 +11,8 @@ class NavBar extends Component {
             <div className="navbar">
                 <nav>
                     <ul>
-                        <img className="navLogo" src={logo} />
-                        <li className="websiteName"></li>
+                        <li><img className="navLogo" src={logo} /></li>
+                        <li className="websiteName">Bubble Hub</li>
                         <li><Link to="/">Home</Link></li>
                     </ul>
                 </nav>
